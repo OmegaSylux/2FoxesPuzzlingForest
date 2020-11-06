@@ -88,9 +88,8 @@ public class IsoCharacterMovement : MonoBehaviour
 
         if(xMovement == 0 && yMovement == 0)
         {
-            Debug.Log("Standing Still.");
+            //Debug.Log("Standing Still.");
             transform.Translate(Vector3.zero);
-
         }
         else
         {
